@@ -14,7 +14,6 @@ pertanyaan = st.text_area(
 
 if st.button("Analisis"):
 
-```
 if pertanyaan:
 
     hasil = ask_ai(
@@ -30,4 +29,3 @@ if pertanyaan:
         "Konsultasi WhatsApp",
         "https://wa.me/6285124248400"
     )
-```
