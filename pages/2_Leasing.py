@@ -29,4 +29,3 @@ if st.button("Analisis"):
             "Konsultasi WhatsApp",
             "https://wa.me/6285124248400"
         )
-```
