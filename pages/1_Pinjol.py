@@ -14,18 +14,18 @@ pertanyaan = st.text_area(
 
 if st.button("Analisis"):
 
-if pertanyaan:
+    if pertanyaan:
 
-    hasil = ask_ai(
-        PINJOL_PROMPT,
-        pertanyaan
-    )
+        hasil = ask_ai(
+            PINJOL_PROMPT,
+            pertanyaan
+        )
 
-    st.success("Analisis Awal")
+        st.success("Analisis Awal")
 
-    st.markdown(hasil)
+        st.markdown(hasil)
 
-    st.link_button(
-        "Konsultasi WhatsApp",
-        "https://wa.me/6285124248400"
-    )
+        st.link_button(
+            "Konsultasi WhatsApp",
+            "https://wa.me/6285124248400"
+        )

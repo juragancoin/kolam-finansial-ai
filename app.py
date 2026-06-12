@@ -1,9 +1,9 @@
 import streamlit as st
 
 st.set_page_config(
-page_title="Kolam Finansial AI",
-page_icon="⚖️",
-layout="wide"
+    page_title="Kolam Finansial AI",
+    page_icon="⚖️",
+    layout="wide"
 )
 
 col1, col2 = st.columns([1, 4])
@@ -53,6 +53,6 @@ with c3:
 with c4:
     st.metric("Hukum", "AI Advisor")
 
-    st.markdown("---")
+st.markdown("---")
 
-    st.caption("Kolam Finansial © 2026")
+st.caption("Kolam Finansial © 2026")
