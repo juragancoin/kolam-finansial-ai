@@ -1,4 +1,3 @@
-```python
 import streamlit as st
 
 from utils.ai_engine import ask_ai
