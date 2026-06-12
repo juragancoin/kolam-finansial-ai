@@ -7,7 +7,7 @@ api_key=st.secrets["OPENAI_API_KEY"]
 
 def ask_ai(system_prompt, user_question):
 
-response = client.chat.completions.create(
+    response = client.chat.completions.create(
     model="gpt-4o-mini",
     temperature=0.4,
     messages=[
