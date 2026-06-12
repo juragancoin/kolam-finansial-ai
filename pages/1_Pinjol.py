@@ -9,24 +9,25 @@ nama = st.text_input("Nama")
 wa = st.text_input("WhatsApp")
 
 pertanyaan = st.text_area(
-    "Ceritakan masalah Anda"
+"Ceritakan masalah Anda"
 )
 
 if st.button("Analisis"):
 
-    if pertanyaan:
+```
+if pertanyaan:
 
-        hasil = ask_ai(
-            PINJOL_PROMPT,
-            pertanyaan
-        )
+    hasil = ask_ai(
+        PINJOL_PROMPT,
+        pertanyaan
+    )
 
-        st.success("Analisis Awal")
+    st.success("Analisis Awal")
 
-        st.markdown(hasil)
+    st.markdown(hasil)
 
-        st.link_button(
-            "Konsultasi WhatsApp",
-            "https://wa.me/6285124248400"
-        )
+    st.link_button(
+        "Konsultasi WhatsApp",
+        "https://wa.me/6285124248400"
+    )
 ```
