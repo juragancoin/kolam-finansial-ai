@@ -9,15 +9,15 @@ layout="wide"
 col1, col2 = st.columns([1, 4])
 
 with col1:
-st.image("assets/logo.png", width=120)
+    st.image("assets/logo.png", width=120)
 
 with col2:
-st.title("KOLAM FINANSIAL AI")
-st.caption("Strategi • Keamanan • Ketenangan")
+    st.title("KOLAM FINANSIAL AI")
+    st.caption("Strategi • Keamanan • Ketenangan")
 
-st.markdown("---")
+    st.markdown("---")
 
-st.markdown("""
+    st.markdown("""
 
 Selamat Datang
 
