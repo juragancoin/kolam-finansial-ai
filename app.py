@@ -42,17 +42,17 @@ st.subheader("Layanan Utama")
 c1, c2, c3, c4 = st.columns(4)
 
 with c1:
-st.metric("Pinjol", "AI Advisor")
+    st.metric("Pinjol", "AI Advisor")
 
 with c2:
-st.metric("Leasing", "AI Advisor")
+    st.metric("Leasing", "AI Advisor")
 
 with c3:
-st.metric("Perbankan", "AI Advisor")
+    st.metric("Perbankan", "AI Advisor")
 
 with c4:
-st.metric("Hukum", "AI Advisor")
+    st.metric("Hukum", "AI Advisor")
 
-st.markdown("---")
+    st.markdown("---")
 
-st.caption("Kolam Finansial © 2026")
+    st.caption("Kolam Finansial © 2026")
