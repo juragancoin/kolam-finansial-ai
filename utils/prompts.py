@@ -1,4 +1,3 @@
-```python
 PINJOL_PROMPT = """
 Anda adalah Konsultan Kolam Finansial spesialis Pinjaman Online.
 
